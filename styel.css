@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fullwebsid{
+    width: 800px;
+    margin: auto;
+}
+.menu{
+    background-color: black;
+}
+.menu ul{
+    text-align: center;
+    border-top: 4px solid #5ea5fa;
+    margin-top: -3px;
+}
+.menu ul li{
+    position: relative;
+  
+    display: inline-block;
+}
+.menu ul li:hover{
+    background-color: #5ea5fa;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: inline-block;
+}
+.menu ul li ul{
+   position: absolute;
+    background-color: black;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+   
+    transition: .5s;
+}
+.menu ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+   transition: .5s;
+}
+
+.menu ul li ul li{
+   
+    display: block;
+}
+.menu ul li ul li ul{
+    position: absolute;
+    top: 0;
+    left: 100%;
+   
+}
+.bener{
+    background-image: url(https://www.abc4.com/wp-content/uploads/sites/4/2021/04/friends.jpg?w=876&h=493&crop=1);
+    background-position: center;
+    background-repeat: no-repeat;
+     height: 500px;
+     margin-top: -5px;
+}
+.contan{
+    padding: 180px;
+    text-align: center;
+  
+}
+.bener h2{
+    background-color: white;
+    font-size: 30px;
+    padding: 10px 30px;
+   display: inline-block;
+   position: relative;
+    
+}
+.bener p{
+   width: 686px; 
+   position: absolute;
+   top: 297px;
+   left: 312px;
+  margin: auto;
+   padding:10px 39px;
+   display: inline-block;
+   background-color: white;
+  right:313px; 
+}
+.bener a{
+    color: black;
+    text-decoration:none ;
+    background-color: red;
+ display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+.bener a:hover{
+    background-color: white;
+}
+.styel-1{
+    border: 5px solid #ffffff;
+    text-align: center;
+    list-style-position: outside ;
+}
+.styel-2{
+    box-sizing: 1px 2px 15px 1px black;
+    text-align: center;
+}
+.from{
+    background-color: #f2f2f2;
+    height: 90px;
+    text-align: center;
+    margin-top: 20px;
+  padding-bottom: 25px;
+}
+.from .inp{
+    margin-top: 40px;
+    width: 500px;
+    height: 15px;
+    border: 1px solid red; 
+    padding: 10px;
+    
+}
+.inp-2{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    padding:10px 15px;
+    margin-left: -5px;
+}
+.full-list{
+    margin-top: 20px;
+    border: 2px dashed #f3f3f3;
+    height: 200px;
+   
+}
+.list-styel{
+    /* border: 1px dashed #f2f2f2;
+    height: 400px; */
+   
+}
+.list-styel h2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.list-styel-2{
+    position: relative;
+    top: 0px;
+    left: 40px;
+ 
+    font-size: 13px;
+    display: block;
+}
+.styel-type{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    list-style: inside;
+}
+.styel-type li{
+    list-style: lower-roman;
+}
+.style2{
+   position: absolute;
+   top: 10px;
+   left: 250px;
+}
+.style2 li{
+    list-style: square;
+}
+.style3 li{
+    list-style: lower-greek;
+}
+.style3{
+  position: absolute;
+  top: 10px;
+  left: 510px;
+}
+.sosail-menu{
+    background-color: black;
+    padding: 10px;
+   
+    text-align: center;
+}
+.sosail-menu p{
+    color: white;
+    padding: 10px;
+}
+ .icon ul{
+
+ }
+ .icon ul li{
+    display: inline-block;
+    background-color:#5ea5fa;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    margin-left: 10px;
+ }
+ .icon ul li a{
+   padding: 10px;
+
+  /* padding: 8px;
+   width: 10px;
+   height: 10px;
+   border-radius: 50%; */
+  display: block;
+ 
+ }
